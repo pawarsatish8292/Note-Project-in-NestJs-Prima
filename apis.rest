@@ -1,0 +1,21 @@
+
+GET http://localhost:3000
+
+### 
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+ "name": "Satish Pawar",
+ "email": "satish55545@gmail.com",
+"password": "satish@Sdf12"
+}
+
+### 
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+ "email": "satish55545@gmail.com",
+"password": "satish@Sdf12"
+}
