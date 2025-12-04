@@ -64,6 +64,14 @@ A RESTful Notes API built with NestJS and Prisma ORM. This project allows users 
 - `PUT /notes/:id` – Update a note (owner only)
 - `DELETE /notes/:id` – Delete a note (owner only)
 
+## API Documentation (Swagger)
+
+This project uses Swagger for interactive API documentation. After starting the server, you can access the Swagger UI at:
+
+- [http://localhost:4000/api](http://localhost:3000/api)
+
+Use this interface to explore, test, and understand all available endpoints and their request/response formats.
+
 ## Project Structure
 
 ```
